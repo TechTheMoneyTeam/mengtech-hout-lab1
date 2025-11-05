@@ -1,0 +1,22 @@
+{
+  "name": "lastname-firstname-lab1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js",
+    "test:coverage": "nyc --reporter=html --reporter=text mocha --exit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10",
+    "supertest": "^6.3.3",
+    "eslint": "^8.54.0",
+    "nyc": "^15.1.0"
+  }
+}
